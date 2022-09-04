@@ -1,0 +1,63 @@
+import java.util.*;
+public class Main {
+       public static void main(String[] args) {
+       Scanner sc=new Scanner(System.in);
+
+  //Q1  
+        int d=sc.nextInt();
+        int r=d/2;
+        System.out.println((22*r*r)/7); 
+
+  //Q2
+        double x=sc.nextDouble();
+        double y=sc.nextDouble();
+        System.out.println((x*y)/2);
+  //Q3
+        int x = sc.nextInt();
+        System.out.println(x>1000);
+  //Q4 For 3rd and 4th Question. Attempt the Quiz
+  //Q5
+        a. Int x = 7+3+4 ->14
+        b. Int x = 12 + 5 + 8 ->25
+        c. Int x= 13/5 + 18/8 ->4
+        d. double x= 12 + 5.0 + 2.76 ->19.76
+        e. double x= 12/3 + 13/2 ->10.0
+        f. double x=12/3 + 13.0/2 ->10.5
+        g. double x=14/2 + 15.0/4 ->10.75
+        h. double x= 13/2 % 5/3 ->0.0
+        i. double x= 17.0/2 % 16.0/4 ->2.125
+  //Q6
+        a. boolean ans = 3 > 2 ->true
+        b. boolean ans = 3 ≥ 3 ->error
+        c. boolean ans = 4 + 3 > 9 ->false
+        d. boolean ans = 10 + 8 > 10 ->true
+        e. boolean ans = 12 != 10 ->true
+        f. boolean ans = 13 == 13 ->true
+        g. boolean ans = 14 != 14 ->false
+        h. boolean ans = 20 == 5*4 ->true
+        i. boolean ans = 30 != 3+4-10 ->true
+        j. boolean ans = 20 == 41/2 ->true
+  //Q7
+        double a=sc.nextDouble();
+        double b=sc.nextDouble();
+        double c=sc.nextDouble();
+        double d=sc.nextDouble();
+        double e=sc.nextDouble();
+        double t=(a+b+c+d+e);
+        System.out.println(t);
+        System.out.println((t*100)/500);
+  //Q8
+        int a=sc.nextInt();
+        int b=sc.nextInt();
+        int c=sc.nextInt();
+        int d=sc.nextInt();
+        System.out.println((a*b*c*d)>1000);
+  //Q9
+        int x=sc.nextInt();
+        if(x/7==0)
+        System.out.println("divisible");
+        else
+        System.out.println("not divisible");
+        }
+}
+        
