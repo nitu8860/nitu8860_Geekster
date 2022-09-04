@@ -1,0 +1,25 @@
+import java.io.*;
+import java.util.*;
+public class Main
+{
+public static void main(String[] args) 
+{
+		 
+ boolean ans = 40>=2*45 || 30>=2*10; //->true
+ ans= 40>3 && 20>3;  //->true
+ ans= 50>7 && 30>=40; //->false
+ ans= 50<25 || 30>2; //->true
+ ans= 70<=75 || 40<=2;  //->true
+ ans = !( 45==35); //->true
+ ans= (20<32 && 2!=30) && (35>=20 || 35!=25); //->true
+ ans= !(20>=30); //->true
+ ans= !(30>40); //->true
+ ans = !(40==2*20) && 75==15*5; //->false
+ ans = !(40>=40) || (50>=2*25); //->true
+ ans = !(10*5==50) || (2*3==7 || 9==28/3); //->true
+ ans = (20*5==100 || 10!=10) && (30*2==60 || 50<40); //->false
+ ans = ( !(90>=40) && !(80>36) ); //->false
+ ans = ( (50>=20) || 90>2*45) && ( 30!=2*15); //->false
+ System.out.println(ans);
+	}
+}
