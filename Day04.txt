@@ -1,0 +1,67 @@
+import java.io.*;
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	
+         Scanner s = new Scanner(System.in);
+//Q1
+       int x = s.nextInt();
+    int y = s.nextInt();
+	    if(x>y)
+	    System.out.println(x);
+	    else
+	    System.out.println(y);
+//Q2
+        if(x%2==0)
+	    System.out.println("even");
+	    else
+	    System.out.println("odd");
+//Q3
+        if(x>=500000)
+            System.out.println("Tax to be paid");
+         else   
+        System.out.println("No tax to be paid");
+//Q4
+          if(x<33)
+            System.out.println(a+4);
+        else
+            System.out.println(x);
+//Q5
+         if(x>=70)
+        {
+            System.out.println("Super Senior Citizen");
+        }
+        else if(x<70 && x>=59)
+        {
+            System.out.println("Senior Citizen");
+        }
+        else if(x<59 && x>=18)
+        {
+            System.out.println("Adult");
+        }
+        else if(x<18 && x>1)
+        {
+             System.out.println("Underage");
+        }
+            else
+                 System.out.println("New Born");
+//Q6
+         int a=sc.nextInt();
+        int b=sc.nextInt();
+        
+        if(a>60)
+        {
+            System.out.println(b+1000);
+        }
+        else if(a>40 && a<=60)
+        {
+            System.out.println(b+500);
+        }
+        else if(a<=40)
+        {
+            System.out.println(b);
+        }
+        	    
+	}
+}
